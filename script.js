@@ -13,7 +13,7 @@ button.addEventListener("click", async (e) => {
     `https://www.themealdb.com/api/json/v1/1/search.php?s=${meal}`
   );
   let meals = response.data.meals;
-  console.log(meals[0]);
+  console.log(meals["0"]);
   let mealPic = meals[0].strMealThumb;
   let mealHeader = meals[0].strMeal;
   let mealDesc = meals[0].strInstructions;
