@@ -1,5 +1,14 @@
 @import url("https://use.typekit.net/irm5ixk.css");
 
+body{
+    background-image: url("food-bg.png");
+    background-repeat: no-repeat;
+    background-color: rgb(246, 243, 227);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -25,7 +34,6 @@ section{
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background-color: rgb(246, 243, 227);
 }
 
 .container{
@@ -76,9 +84,10 @@ button {
 .item{
     width: 100%;
     border-radius: 8px;
-    background-color: rgb(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     overflow: hidden;
+    /* opacity: 0; */
 }
 
 .item img{
