@@ -20,6 +20,7 @@ button.addEventListener("click", async (e) => {
   console.log(meals["0"]);
 
   item.style.opacity = "1";
+
   let mealPic = meals[0].strMealThumb;
   let mealHeader = meals[0].strMeal;
   let mealDesc = meals[0].strInstructions;
