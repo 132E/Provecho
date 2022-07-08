@@ -5,7 +5,7 @@ const mealAreaText = document.querySelector("#meal-area");
 const mealDescText = document.querySelector("#meal-desc");
 const imageDiv = document.getElementById("img-div");
 
-const newItem = document.querySelector("item");
+// const newItem = document.querySelector("item");
 
 console.log("working");
 
