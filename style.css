@@ -87,7 +87,7 @@ button {
     background-color: rgb(255, 255, 255);
     padding: 15px;
     overflow: hidden;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .item img{

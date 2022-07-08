@@ -5,7 +5,7 @@ const mealAreaText = document.querySelector("#meal-area");
 const mealDescText = document.querySelector("#meal-desc");
 const imageDiv = document.getElementById("img-div");
 
-// const newItem = document.querySelector("item");
+const item = document.querySelector(".item");
 
 console.log("working");
 
@@ -18,6 +18,8 @@ button.addEventListener("click", async (e) => {
   );
   let meals = response.data.meals;
   console.log(meals["0"]);
+
+  item.style.opacity = "1";
   let mealPic = meals[0].strMealThumb;
   let mealHeader = meals[0].strMeal;
   let mealDesc = meals[0].strInstructions;
