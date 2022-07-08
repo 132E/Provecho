@@ -45,8 +45,8 @@ Link: [Figma Wireframe](https://www.figma.com/file/lRO4stZxSPzF7AM9daL66e/Sneake
 - [x] GitHub Repo
 - [x] HTML
 - [x] CSS
-- [ ] JS
-- [ ] MVP
+- [x] JS
+- [x] MVP
 - [ ] Launch
 
 ---
@@ -56,5 +56,3 @@ Link: [Figma Wireframe](https://www.figma.com/file/lRO4stZxSPzF7AM9daL66e/Sneake
 [Trello Board](https://trello.com/b/UkAEGCos/sneaker-seeker)
 
 [Meal Database](https://www.themealdb.com/)
-
-[Build Ref](https://www.youtube.com/watch?v=x8EY0BlhPGk)
